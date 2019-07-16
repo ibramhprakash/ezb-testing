@@ -9,9 +9,10 @@ const io = require('socket.io').listen(server);
 const socket = require('./src/socketio/socket');
 
 
-//start sever on specfic port
+//start sever on specfic port 3000
 server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server sss running at http://${hostname}:${port}/`);
+    console.log(`Server sss running at http://${hostname}:${port}/`);
 });
 
 // create socketio connection
